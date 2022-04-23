@@ -1,4 +1,4 @@
-HackerLand University has the following grading policy:
+## HackerLand University has the following grading policy:
 
 - Every student receives a grade in the inclusive range from 0 to 100.
 - Any grade less than 40 is a failing grade.
@@ -22,3 +22,13 @@ More Examples
 - Student 4 received a grade below 38, so the grade will not be modified and the student's final grade is 33.
 
 url: https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
+
+## C# Solution
+
+The C# solution can be found in cSharp/cSharp/Rounding.cs
+C# Tests can be found in cSharp/cSharp.Tests/RoundingTests.cs
+
+## JS Solution
+
+The JS solution can be found in js/index.js
+JS Tests can be found in js/index.test.js
