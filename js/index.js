@@ -1,13 +1,13 @@
-function rounding(score){
+const rounding = score => {
 
-    if(((score % 10) > 5)){
-        if((score % 5 > 2)){
-            return score + 1
-        }
-        return score
-    }
-    if((score % 5) > 3) return score + 1;
-    return score;
+    if(score < 38) return score;
+    const roundedScore = roundUp(score);
+
+    return (roundedScore - score) < 3 ? roundedScore : score;
+}
+
+const roundUp = score => {
+    return Math.ceil(score / 5) * 5;
 }
 
 module.exports = rounding;
